@@ -1,0 +1,12 @@
+把项目文件里的项目文件夹导入的eclispe中
+然后启动项目（启动tomcat服务器）
+然后就可以在本机上任何浏览器输入登陆界面的url（http://localhost:8080/test_jsp/login.jsp），进入系统的登录界面了（建议edge、chrome）
+
+注：
+1、eclispe 版本需要是能够支持 java web 项目的版本，如果不是的话，可以去官网下载或者直接在eclispe里安装支持java web项目的插件
+2、需要先在电脑上安装tomcat服务器，版本最好是9.0（或9.0以下的也可）
+3、需要对eclispe进行设置，字符集设置成UTF-8
+4、运行项目时需要先配置tomcat服务器然后才能运行
+5、由于某些原因，java数据库驱动需要放到tomcat的lib文件夹里（注意mysql版本是否和驱动版本一致
+6、数据库的用户名，密码，驱动等可以在database_var.java里配置
+7、如果需要在其他机器上通过浏览器访问这个系统，需要到loaclurl.java里进行配置，不过最好不要在其他机器上访问，因为url的问题会出错。
